@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.nsu.fit.sokolova.controllers.ResultController">
+   <children>
+      <Label layoutX="77.0" layoutY="98.0" text="Your message was ">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label fx:id="originalMessage" layoutX="364.0" layoutY="99.0" prefHeight="50.0" prefWidth="115.0">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="260.0" prefHeight="82.0" prefWidth="79.0" text="RSA">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Label>
+      <Button fx:id="tryAgain" layoutX="184.0" layoutY="261.0" mnemonicParsing="false" text="Try again">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Button>
+      <Label layoutX="48.0" layoutY="172.0" text="Decrypted message is">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label fx:id="result" layoutX="384.0" layoutY="174.0" prefHeight="50.0" prefWidth="115.0">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
