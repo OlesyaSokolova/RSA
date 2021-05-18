@@ -41,7 +41,7 @@ public class InputFormController
         startButton.setOnAction(event ->
         {
             String inputText = input.getText();
-            if(inputText != EMPTY_STRING)
+            if(!inputText.equals(EMPTY_STRING))
             {
                 int originalMessage = Integer.valueOf(inputText);
 
