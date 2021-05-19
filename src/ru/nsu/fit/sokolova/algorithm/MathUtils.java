@@ -90,9 +90,9 @@ public class MathUtils
             long tmp = (sequence[i-1] * sequence[i-1]);
             sequence[i] = (int)(tmp%t);
         }
-        long sequenceComposition1 = calcComposition(exponent_2, sequence);
+        long sequenceComposition = calcComposition(exponent_2, sequence);
 
-        result = (int)(sequenceComposition1%t);
+        result = (int)(sequenceComposition%t);
         return result;
     }
 
